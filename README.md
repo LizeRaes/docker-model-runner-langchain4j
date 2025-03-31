@@ -38,38 +38,3 @@ gradle run
 ```
 
 Finally, open `http://localhost:8080` in your browser
-
-## Structure
-
-```
-.
-├── LICENSE                # MIT License
-├── README.md             # This file
-├── build.gradle          # Gradle build (optional)
-├── pom.xml               # Maven build (default)
-└── src/
-    └── main/
-        ├── java/
-        │   └── engineering/
-        │       └── epic/
-        │           └── ChatServer.java  # All server code
-        └── resources/
-            └── static/
-                └── index.html          # Frontend code
-```
-
-## Extending
-
-This project is intentionally minimal to serve as a base for experimentation. Some ideas to extend it:
-
-- Add streaming responses
-- Implement different chat memory strategies
-- Add authentication
-- Use different LLM providers
-- Add prompt templates
-- Implement chat history persistence
-- Add system prompts configuration
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

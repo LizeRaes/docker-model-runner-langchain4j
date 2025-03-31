@@ -1,0 +1,22 @@
+# Build
+target/
+build/
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+._*
+
+# Environment & Secrets
+.env*
+
+# Logs
+*.log 
