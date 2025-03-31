@@ -2,9 +2,9 @@
 
 A minimal Java + HTML + JS chat app that shows how to use **Docker Model Runner** as a local LLM backend — fully integrated with [LangChain4j](https://github.com/langchain4j/langchain4j).
 
-Runs locally, uses your GPU (if available), and doesn’t depend on any cloud APIs.
+Runs locally, uses your GPU (if available), and doesn’t depend on any cloud APIs. Looks like this
 
-![Chat App Screenshot](screenshot-app.png)
+<img src="img/screenshot-app.png" alt="Chat App Screenshot" width="33%" />
 
 ---
 
@@ -37,7 +37,7 @@ Go to Docker Desktop settings and enable the following:
 > ✅ `Settings → Features in Development → Enable Model Runner`  
 > ✅ `Enable host-side TCP support` (default port: `12434`)
 
-![Model Runner Settings](model-runner-settings.png)
+![Model Runner Settings](img/model-runner-settings.png)
 
 ---
 
