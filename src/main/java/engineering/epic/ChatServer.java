@@ -20,8 +20,9 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ChatServer {
     private static final ObjectMapper objectMapper = new ObjectMapper();
     private static final ChatLanguageModel chatModel = OpenAiChatModel.builder()
-            .apiKey(System.getenv("OPENAI_API_KEY"))
-            .modelName("gpt-4")
+            .apiKey("not needed")
+            .baseUrl("http://localhost:12434/engines/llama.cpp/v1")
+            .modelName("ai/gemma3")
             .build();
     private static final Map<String, MessageWindowChatMemory> chatMemories = new ConcurrentHashMap<>();
 
