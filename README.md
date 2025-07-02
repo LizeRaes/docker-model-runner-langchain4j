@@ -106,3 +106,8 @@ Then update the code:
 
 And run the app again.
 
+## DevoxxGenie usage
+
+<img src="img/DevoxxGenie.png" alt="DevoxxGenie Setup" width="33%" />
+
+Install the [DevoxxGenie](https://github.com/devoxx/DevoxxGenieIDEAPlugin) in your IDEA via the marketplace
